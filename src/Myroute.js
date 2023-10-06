@@ -5,6 +5,7 @@ import About from './About';
 import Home from './Home';
 import Sample from './Sample';
 import MyApi from './Myapi';
+import Counter from './Counter';
 
 export default function Myroute() {
   return (
@@ -15,7 +16,8 @@ export default function Myroute() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/Ecommerce' element={<Sample/>}/>
         <Route path='/Api' element={<MyApi/>}/>
-    </Routes>
+        <Route path='/Counter' element ={<Counter/>}/>
+     </Routes> 
     </BrowserRouter>
   )
 }
